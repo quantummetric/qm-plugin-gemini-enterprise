@@ -1,0 +1,30 @@
+{
+  "name": "quantum-metric-analytics",
+  "displayName": "Quantum Metric",
+  "version": "0.1.0",
+  "description": "Analyze funnels, errors, friction and session replays in Quantum Metric to find and fix digital experience issues",
+  "author": {
+    "name": "Quantum Metric",
+    "email": "support@quantummetric.com",
+    "url": "https://www.quantummetric.com"
+  },
+  "repository": "https://github.com/quantummetric/qm-plugin-gemini-enterprise",
+  "homepage": "https://www.quantummetric.com/platform/mcp",
+  "license": "MIT",
+  "keywords": [
+    "quantum-metric",
+    "analytics",
+    "session-replay",
+    "digital-experience",
+    "funnels",
+    "observability"
+  ],
+  "skills": [
+    "./skills/quantum-metric-getting-started/SKILL.md",
+    "./skills/quantum-metric-data-analysis/SKILL.md",
+    "./skills/quantum-metric-session-review/SKILL.md",
+    "./skills/quantum-metric-saved-queries/SKILL.md",
+    "./skills/quantum-metric-monitoring-workflows/SKILL.md"
+  ],
+  "mcpServers": "./.mcp.json"
+}
